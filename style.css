@@ -1,0 +1,57 @@
+#marqueestyle{
+    background-color: blue;
+    
+}
+body{
+    text-align: center;
+}
+.container{
+    width: 100%;
+}
+.row:: after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.campus{
+    
+    border: 1px solid #c7c7c7;
+    width: 33.33%;
+   padding: 5px;
+    float: left;
+}
+
+.campus img{
+   width: 100%;
+    height: 300px;
+}
+
+
+.campus hr{
+    width: 100%;
+}
+.campus h5 , .campus p {
+    margin-left: 20px;
+}
+#achievementsID{
+    padding-bottom: 10px;
+}
+.movie_head{
+    text-align: left;
+    font-size: 28px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+.movie_head i {
+ float: right;   
+}
+
+.movie_text span{
+    color: #ff7700;
+}
+#contactus iframe {
+    width: 100%;
+}
